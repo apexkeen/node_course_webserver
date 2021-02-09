@@ -45,7 +45,7 @@ window.addEventListener('submit', (e)=>{
                 //console.log(data[0].forecast)
                 //console.log(data[0].temperature)
                 msg1.textContent = ''
-                msg2.innerHTML = 'Forcast is:' + data[0].forecast + ' and temperature = ' + data[0].temperature;
+                msg2.innerHTML = 'forecast is ' + data[0].forecast + ' , temperature = ' + data[0].temperature + ' and humidity is ' + data[0].humidity ;
             }
         })
     })
